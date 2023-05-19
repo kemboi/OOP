@@ -5,9 +5,9 @@ public class Main {
         System.out.println("Polymorphism: Function overriding example");
         Shapes shapes = new Shapes();
         shapes.area();
-        Shapes circle = new Circle();
+        Shapes circle = new Circle(10);
         circle.area();
-        Shapes square = new Square();
+        Shapes square = new Square(10,10);
         square.area();
     }
 }
